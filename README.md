@@ -6,19 +6,26 @@ How to use
 Start the backend with:  
 `node index.js`
 
-Via rest client (Browser/Postman/Rest Client vscode extension) you can start to count up to a number, you can specify how many thread use to count.
+Via rest client (Browser/Curl/Postman/Rest Client vscode extension) you can start to count up to a number, you can specify how many thread use to count.
 
-Example, count up to 10.000.000.000 with one thread:  
-GET http://localhost:3000/start/1/10000000000 HTTP/1.1
+Examples with browser:
 
-Example, count up to 10.000.000.000 with two thread:  
-GET http://localhost:3000/start/2/10000000000 HTTP/1.1
+Count up to 10.000.000.000 with one thread:  
+`http://localhost:3000/start/1/10000000000`
 
-Example, count up to 20.000.000.000 with two thread:  
-GET http://localhost:3000/start/4/20000000000 HTTP/1.1
+Count up to 10.000.000.000 with two thread:  
+`http://localhost:3000/start/2/10000000000`
 
-In the console is logged the time used to count in milliseconds.
-``
+Count up to 20.000.000.000 with four thread:  
+`http://localhost:3000/start/4/20000000000`
+
+In the console a progress bars is shown and log is printed with the time in milliseconds used to count.
+```
+################
+Counted up to 10,000,000,000 with 2 threads in 4,035 milliseconds
+########
+Counted up to 10,000,000,000 with 4 threads in 2,214 milliseconds
+```
 
 Internals
 ---------
