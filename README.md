@@ -22,7 +22,7 @@ Count up to 20.000.000.000 with four thread:
 Count up to 20.000.000.000 with eight thread:  
 `http://localhost:3000/start/8/20000000000`
 
-In the console a progress bars is shown and a log is printed with the time in milliseconds spent to count and the percentage of used cpu:
+In the console a progress bar is shown and a log is printed with the time in milliseconds spent to count and the percentage of used cpu:
 ```
 Arrived request to count up to 20,000,000,000 with 4 threads
 ##################### - 5,262 milliseconds - CPU 51%
