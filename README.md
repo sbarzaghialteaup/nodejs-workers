@@ -1,5 +1,5 @@
 # nodejs-workers
-How to use nodejs worker threads.
+How to use nodejs worker threads and stress cpu.
 
 How to use this example
 -----------------------
