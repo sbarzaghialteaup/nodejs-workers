@@ -49,6 +49,6 @@ async function start(num_processes, size) {
         countUpTo += response;
     }
     
-    console.log(`\nContato fino a ${countUpTo.toLocaleString()} con ${num_processes.toLocaleString()} thread da ${size.toLocaleString()} in ${getSecondsFromStart().toLocaleString()} milliseconds`);
+    console.log(`\nCounted up to ${countUpTo.toLocaleString()} with ${num_processes.toLocaleString()} ${num_processes===1?"thread":"threads"} in ${getSecondsFromStart().toLocaleString()} milliseconds`);
     clearInterval(i);
 } 
