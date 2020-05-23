@@ -10,10 +10,10 @@ Via a REST client (Browser/Curl/Postman/Rest Client vscode extension) you can st
 
 Examples with browser:
 
-Count up to 10.000.000.000 with one thread:  
+Count up to 20.000.000.000 with one thread:  
 `http://localhost:3000/start/1/20000000000`
 
-Count up to 10.000.000.000 with two thread:  
+Count up to 20.000.000.000 with two thread:  
 `http://localhost:3000/start/2/20000000000`
 
 Count up to 20.000.000.000 with four thread:  
