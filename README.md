@@ -6,7 +6,7 @@ How to use this example
 Start the backend with:  
 `node index.js`
 
-Via a REST client (Browser/Curl/Postman/Rest Client vscode extension) you can start to count up to a number, you can specify how many threads to use to count.
+Via a REST client (Browser/Curl/Postman/Rest Client vscode extension) you can start to count up to a number and specify how many threads to use to count.
 
 Examples with browser:
 
